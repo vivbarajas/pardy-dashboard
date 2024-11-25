@@ -1,5 +1,5 @@
 const RsvpsDefault = () => {
-  return 'default'
+  return null
 }
 
 export default RsvpsDefault

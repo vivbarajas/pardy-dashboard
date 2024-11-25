@@ -11,7 +11,7 @@ const statusColors = {
   canceled: 'danger',
 }
 
-const EventsRsvp = async () => {
+const EventsSlot = async () => {
   const user = await getCurrentUser()
   const events = await getEventsForDashboard(user.id)
 
@@ -46,4 +46,4 @@ const EventsRsvp = async () => {
   )
 }
 
-export default EventsRsvp
+export default EventsSlot

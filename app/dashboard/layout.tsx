@@ -1,8 +1,10 @@
+// /app/dashboard/layout.tsx
 'use client'
 import Shell from '@/components/Shell'
 import { usePathname } from 'next/navigation'
 
 const Dashboard = ({ children, rsvps, events }) => {
+  // string that returns the current route
   const path = usePathname()
 
   return (
